@@ -1,0 +1,10 @@
+var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/api/training_session/delete/[id]/route.js")
+R.c("server/chunks/node_modules_d6ee8716._.js")
+R.c("server/chunks/node_modules_next_2045a773._.js")
+R.c("server/chunks/node_modules_@clerk_backend_dist_7db3b9d5._.js")
+R.c("server/chunks/node_modules_@clerk_nextjs_dist_esm_b0ef4d74._.js")
+R.c("server/chunks/node_modules_41934803._.js")
+R.c("server/chunks/[root-of-the-server]__bfd5b4b4._.js")
+R.c("server/chunks/ce889_server_app_api_training_session_delete_[id]_route_actions_5177ba59.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/training_session/delete/[id]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/training_session/delete/[id]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

@@ -1,0 +1,5 @@
+{
+  "/api/training_session/route": "app/api/training_session/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js"
+}

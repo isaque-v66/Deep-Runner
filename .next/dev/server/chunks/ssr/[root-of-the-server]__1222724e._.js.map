@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/paula/Documents/Prog-estudo/teste/projeto-para-testes/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport { useState } from \"react\";\n\nexport default function Home() {\n\n\n    type Product = {\n      count: number;\n      theme: string;\n    }\n\n\n  const [state, setState] = useState<Product>({count: 0, theme: 'dark'})\n\n\n  function counter() {\n    setState((prev)=>{\n      return {\n        ...prev,\n        count: prev.count + 1,\n        theme: \"dark\"\n      }\n    })\n  }\n\n\n  return (\n    <div className=\"flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black\">\n      <h2>{state.count}</h2>\n      <h2>{state.theme}</h2>\n      <button onClick={counter} />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;;;AAEe,SAAS;IAStB,MAAM,CAAC,OAAO,SAAS,GAAG,IAAA,iNAAQ,EAAU;QAAC,OAAO;QAAG,OAAO;IAAM;IAGpE,SAAS;QACP,SAAS,CAAC;YACR,OAAO;gBACL,GAAG,IAAI;gBACP,OAAO,KAAK,KAAK,GAAG;gBACpB,OAAO;YACT;QACF;IACF;IAGA,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;0BAAI,MAAM,KAAK;;;;;;0BAChB,8OAAC;0BAAI,MAAM,KAAK;;;;;;0BAChB,8OAAC;gBAAO,SAAS;;;;;;;;;;;;AAGvB","debugId":null}}]
+}
